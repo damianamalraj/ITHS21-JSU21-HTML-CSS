@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+ul, div {
+    box-sizing: border-box;
+
+    text-align: center;
+}
+
+div p {
+    font-size: 2rem;
+    margin: 1rem 9rem 1rem 11rem;
+    display: inline-flex;
+}
+
+li {
+    width: 12rem;
+    height: 12rem;
+    margin: 1rem 7rem;
+    list-style: none;
+
+}
+
+
+
+.red li{
+    border: 0.8rem solid firebrick;
+    background-color: red;
+    display: inline-flex;
+}
+.yellow li{
+    border: 0.8rem solid rgb(155,156,26);
+    background-color: yellow;
+    display: inline-flex;
+}
+.green li{
+    border: 0.8rem solid rgb(45,101,2);
+    background-color: green;
+    display: inline-flex;
+}
+
+.three {
+    border-radius: 15%;
+}
+
+
+
+.red .one span {
+    background-color: red;
+    border: red;
+}
+
+.yellow .one span {
+    background-color: yellow;
+    border: yellow;
+}
+
+.green .one span {
+    background-color: green;
+    border: green;
+}
+
+.red .two span {
+    width: 100%;
+    height: 50%;
+    background-color: rgb(255,255,255,0.5);
+    margin-top: 50%;
+}
+
+.yellow .two span {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(255,255,255,0.5);
+    margin-left: 50%;
+    margin-top: 50%;
+}
+.green .two span {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(255,255,255,0.5);
+    margin-right: 50%;
+    margin-top: 50%;
+}
+
+.three span {
+    width: 30%;
+    height: 30%;
+    background-color: rgb(255,255,255,0.5);
+    margin-left: 5%;
+    margin-top: 65%;
+    border-radius: 50%;
+}
