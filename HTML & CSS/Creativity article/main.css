@@ -11,6 +11,10 @@ body {
     border: 2px solid rgb(188, 188, 188, 0.5);
 }
 
+.icon {
+    font-size: 2em;
+}
+
 .big {
     font-size: 2em;
 }
