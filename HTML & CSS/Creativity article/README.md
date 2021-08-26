@@ -8,3 +8,5 @@ Implementera [artikeln](Article.pdf) så likt du bara kan.
 
 ### Headings: Voces
 ### Paragraphs: Times New Roman
+
+<hr align="left | center | right">
