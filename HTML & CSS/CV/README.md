@@ -10,4 +10,10 @@ Webbplatsen ska inkludera
 * En sidfot med kontaktuppgifter
 * En länk till en separat sida med ett personligt brev
 
-Laborera även med designdetaljer på sidan som bakgrundsbilder, skuggor, gradienter, typsnitt, borders, ikoner, etc.
+Laborera även med designdetaljer på sidan som 
+bakgrundsbilder, 
+skuggor, 
+gradienter, 
+typsnitt, 
+borders, 
+ikoner, etc.

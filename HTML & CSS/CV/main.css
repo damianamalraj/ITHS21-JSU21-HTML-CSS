@@ -1,0 +1,41 @@
+body {
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); 
+    background-repeat: no-repeat;
+}
+
+
+
+.container {
+    border-radius: 5px;
+    height: auto;
+    width: 80%;
+    margin: auto;
+    background-color: cornsilk;
+    padding: 20px;
+    box-shadow: -2px -1px 13px -2px rgba(0,0,0,0.54);
+    -webkit-box-shadow: -2px -1px 13px -2px rgba(0,0,0,0.54);
+    -moz-box-shadow: -2px -1px 13px -2px rgba(0,0,0,0.54);
+}
+
+footer ul {
+    list-style: none;
+}
+
+img {
+    width: 200px;
+}
+
+p {
+    color: black;
+}
+
+footer {
+    bottom: 0;
+}
+
+.material-icons {
+    font-size: 3rem;
+}
