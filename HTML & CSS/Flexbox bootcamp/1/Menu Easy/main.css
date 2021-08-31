@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+ul {
+    display: flex;
+    
+}
+
+li {
+    width: 150px;
+    height: 50px;
+    background-color: light;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+
+}
+
+li:hover {
+    background-color: grey;
+
+}
+
+img {
+    width: 100px;
+    height: 50px;
+}
