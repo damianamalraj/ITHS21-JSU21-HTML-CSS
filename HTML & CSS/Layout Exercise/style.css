@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    
+}
+
+nav button {
+    border: 2px solid grey;
+    border-radius: 5%;
+    align-self: flex-end;
+    padding: 1rem 2rem;
+    margin: 1rem 1rem 0 0;
+}
+
+nav img {
+    object-fit: contain;
+    margin-left: 1rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    font-size: x-small;
+}
+
+li {
+    margin: 1rem;
+}
+
+li:hover {
+    color: grey;
+    font-size: 1rem;
+    font-family: fantasy;
+    transition: 0.1s ease-in;
+}
+
+header {
+    background-color: #EEEEEE;
+}
+
+header article {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    padding: 6rem;
+
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 15rem 14rem;
+    grid-template-areas: "p1 p2 p3 p4" "c1 c1 c2 c2";
+    gap: 1rem;
+
+}
+
+
+
+.product1 {
+    grid-area: p1;
+
+}
+.product2 {
+    grid-area: p2;
+}
+.product3 {
+    grid-area: p3;
+}
+.product4 {
+    grid-area: p4;
+
+}
+.collection1 {
+    grid-area: c1;
+    background-color: #343332;
+}
+.collection2 {
+    grid-area: c2;
+    background-color: #343332;
+}
+
+.product1 img,
+.product2 img,
+.product3 img,
+.product4 img {
+    align-self: center;
+}
+
+.product1,
+.product2,
+.product3,
+.product4 {
+    background-color: #EBEBEB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+
+
+
+footer {
+    background-image: url(./assets/map.png);
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+
+footer article {
+    background-color: white;
+    width: 20%;
+    margin: 2rem 6rem 2rem 0;
+    border-radius: 2%;
+    flex-direction: column;
+    padding: 2rem 1rem 4rem 1rem;
+}
+
+button {
+    border-style: none;
+    margin-bottom: 1rem;
+
+}
+button img {
+    width: 6rem;
+}
+

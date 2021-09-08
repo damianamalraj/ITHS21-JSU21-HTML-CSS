@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(254,211,83);
+}
+
+form {
+    width: 25rem;
+    border: 1px solid grey;
+    margin: 15rem 0 0 2rem;
+    border-radius: 2%;
+    background-color: white;
+}
+.header {
+    background: rgb(21,10,255);
+    background: linear-gradient(90deg, rgba(21,10,255,1) 0%, rgba(179,4,255,1) 100%);
+    color: white;
+}
+
+.header p {
+    font-size: 2rem;
+    margin: 0;
+    padding: 2rem;
+    font-weight: bold;
+}
+
+main {
+    padding: 3rem 2rem 1rem 2rem;
+}
+
+select {
+    width: 6rem;
+    height: 2rem;
+    color: #757575;
+    font-size: 1rem;
+    padding: 0.3rem;
+    -webkit-appearance: none;
+    background: url(./arrow_drop_down_black_24dp.svg) no-repeat right;
+    background-size: contain;
+
+}
