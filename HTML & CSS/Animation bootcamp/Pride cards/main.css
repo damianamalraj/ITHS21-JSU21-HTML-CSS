@@ -1,0 +1,10 @@
+section {
+    width: auto;
+    height: 100vh;
+}
+
+.cards {
+    width: 5rem;
+    height: 10rem;
+    border: 1px solid grey;
+}
